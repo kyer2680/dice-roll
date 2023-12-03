@@ -19,6 +19,14 @@ while roll_again == "yes" or roll_again == "y":
     value2=random.randint(min_value, max_value)
     print(value1,value2)
     roll_again = input("Press 'y' or 'yes' to roll the dices again.")
+
+mylist = [1, 2, 3, 4, 5, 6]
+if(mylist == random):
+    print("Computer wins")
+elif(mylist != random):
+    print("Computer loses")
+print(random.choice(mylist))
+
 print("Have a good day.")
 
 
